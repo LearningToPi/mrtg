@@ -67,4 +67,3 @@ Podman namespaces work similar to docker with one major exception.  Rather than 
 User remapping is done different based on the user namespace mode selected (see here for details: <https://www.redhat.com/en/blog/rootless-podman-user-namespace-modes>).
 
 In the default mode (`--userns=""`), the root user in the container will be mapped to the uid of the user that started the container.  
-
